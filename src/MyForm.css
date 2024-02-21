@@ -1,0 +1,28 @@
+.student-form-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Align items horizontally to center */
+  }
+  
+  .student-forms {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; /* Ensure the container takes up the full width */
+    max-width: 800px; /* Adjust max-width as needed */
+  }
+  
+  .student-form {
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .student-form {
+      width: 100%;
+    }
+  }
+  

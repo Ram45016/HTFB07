@@ -1,0 +1,129 @@
+/* CSS file for Upload dataset webpage */
+
+.upload-dataset {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .header {
+    position: fixed; /* Fix the header at the top */
+    top: 0; /* Position at the top of the viewport */
+    left: 0;
+    right: 0;
+    background-color: #1890ff; /* Change background color */
+    padding: 10px 20px; /* Add padding */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Take full width */
+  }
+  
+  h1 {
+    font-size: 24px; /* Reduce font size */
+    color: white;
+    margin: 0; /* Remove margin */
+  }
+  
+  .nav {
+    display: flex;
+    list-style: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .nav li {
+    font-size: 16px; /* Reduce font size */
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .nav li:hover {
+    color: #f0f0f0; /* Change hover color */
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .icons {
+    display: flex;
+  }
+  
+  .icons i {
+    font-size: 20px; /* Reduce font size */
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .content {
+    margin-top: 70px; /* Add margin to create space below fixed header */
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .steps {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    height: 40px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .button-default {
+    background-color: #f0f0f0;
+    color: #1890ff;
+  }
+  
+  .button-primary {
+    background-color: #1890ff;
+  }
+  

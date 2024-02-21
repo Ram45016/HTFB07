@@ -1,0 +1,50 @@
+/* Header.css */
+
+.header {
+    /* background-color:black; */
+    background-color: black;
+    padding: 1px 0;
+    position: fixed;
+    /* right: 5%; */
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure it appears above other content */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.header-title {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    /* text-align: ; */
+    /* padding-left: 40%; */
+}
+
+.header-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Align the links to the right */
+}
+
+.header-nav li {
+    display: inline-block;
+    margin-left: 20px; /* Adjust margin to provide spacing between links */
+}
+
+.header-nav li:first-child {
+    margin-left: 0; /* Remove left margin for the first link */
+}
+
+.header-nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px; /* Add padding for better spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.header-nav li a:hover {
+    background-color: #555; /* Change background color on hover */
+}

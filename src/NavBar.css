@@ -1,0 +1,43 @@
+/* NavBar.css */
+
+.header {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Align items vertically */
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    padding: 20px; /* Padding for top and bottom */
+  }
+  
+  .header h1 {
+    font-size: 36px; /* Larger font size for heading */
+    margin: 0; /* Remove margin to avoid extra spacing */
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+    color: #ffcc00; /* Change color on hover */
+  }
+  

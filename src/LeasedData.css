@@ -1,0 +1,128 @@
+/* CSS file for LeasedData webpage */
+
+.leased-data {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+  }
+  
+  .side-bar {
+    width: 20%;
+    background-color: #1890ff;
+    color: white;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    font-size: 18px;
+    margin-bottom: 50px;
+    color:black;
+    cursor: pointer;
+  }
+  
+  ul li:hover {
+    color: #f0f0f0;
+  }
+  
+  .side-bar-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+  }
+  
+  .side-bar-bottom img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1890ff;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  
+  .button-primary {
+    background-color: #1890ff;
+  }
+  
+  .button-default {
+    background-color: #f0f0f0;
+    color: #1890ff;
+  }
+  
+  .active-leases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  img
+  {
+    height:5%;
+    width:50%;
+  }
+  
